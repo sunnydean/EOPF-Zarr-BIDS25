@@ -1,0 +1,38 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+extends:
+  - https://raw.githubusercontent.com/EOPF-Sample-Service/eopf-sample-notebooks/refs/heads/main/eopf.yml
+project:
+  title: Welcome
+  description: Jupyter notebooks showcasing the usage of EOPF Sample Zarr Service
+  plugins:
+    - src/add-jupyterhub-button.mjs
+  authors:
+    - name: European Space Agency
+      affiliations:
+        - id: ESA
+          institution: ESA
+          ror: https://ror.org/03wd9za21
+  github: https://github.com/EOPF-Sample-Service/event-hackathon-BIDS25
+  thumbnail: static/EOPF-Toolkit-Sample.png
+  open_access: true
+  license:
+    content: CC-BY-4.0
+    code: Apache-2.0
+  copyright: "2025"
+  toc:
+    # Main navigation
+    - file: index.md
+    - file: notebooks/hackathon.md
+  subject: earth and related environmental sciences
+
+site:
+  template: book-theme
+  options:
+    logo: https://raw.githubusercontent.com/EOPF-Sample-Service/event-hackathon-BIDS25/main/static/EOPF-Toolkit-Sample.png
+    logo_text: EOPF@BiDS'25
+    style: ./static/custom.css
+  actions:
+    - title: Learn More
+      url: https://eopf.copernicus.eu
+  domains: []
