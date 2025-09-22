@@ -13,7 +13,7 @@ project:
         - id: ESA
           institution: ESA
           ror: https://ror.org/03wd9za21
-  github: https://github.com/EOPF-Sample-Service/event-hackathon-BIDS25
+  github: https://github.com/EOPF-Sample-Service/EOPF-Zarr-BIDS25
   thumbnail: static/EOPF-Toolkit-Sample.png
   open_access: true
   license:
@@ -29,7 +29,7 @@ project:
 site:
   template: book-theme
   options:
-    logo: https://raw.githubusercontent.com/EOPF-Sample-Service/event-hackathon-BIDS25/main/static/EOPF-Toolkit-Sample.png
+    logo: https://raw.githubusercontent.com/EOPF-Sample-Service/EOPF-Zarr-BIDS25/main/static/EOPF-Toolkit-Sample.png
     logo_text: EOPF@BiDS'25
     style: ./static/custom.css
   actions:
