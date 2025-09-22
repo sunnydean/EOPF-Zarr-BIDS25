@@ -139,8 +139,7 @@ Transform how we access and process Copernicus Sentinel data using cloud-native 
 ## 🛠️ Technical Resources
 
 ### Available Tools & Libraries:
-- **Data Access**: STAC, xarray, Dask
-- **Processing**: EOPF toolkit, Zarr v3
+- **Data Access / Processing**: STAC, xarray, Dask, EOPF toolkit (e.g. [xarray-eopf](https://github.com/EOPF-Sample-Service/xarray-eopf), [xcube-eopf](https://github.com/EOPF-Sample-Service/xcube-eopf), [EOPF Julia Reader](https://github.com/JuliaGeo/SentinelDataSource.jl))
 - **Visualization**: Matplotlib, Plotly, Folium
 - **Languages**: Python, Julia
 - **Grid Systems**: HEALPix, DGGS implementations
