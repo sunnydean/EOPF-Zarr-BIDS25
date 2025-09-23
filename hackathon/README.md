@@ -5,7 +5,7 @@ title: EOPF Hackathon at BiDS'25
 
 # Get ready to hack together!
 
-**Date:** September 30, 2025 | **Time:** 09:00 am - 5:00 am | **Location:** 401, BiDS25, Riga, Latvia
+**Date:** September 30, 2025 | **Time:** 09:00 am - 5:00 pm | **Location:** Room 401, BiDS25, Riga, Latvia
 
 ## 🎯 Hackathon Objectives
 
