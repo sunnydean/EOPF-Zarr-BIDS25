@@ -3,6 +3,7 @@ version: 1
 extends:
   - https://raw.githubusercontent.com/EOPF-Sample-Service/eopf-sample-notebooks/refs/heads/main/eopf.yml
 project:
+  title: Overview
   description: EOPF Zarr Tutorial and Hackathon material for BiDS25
   plugins:
     - src/add-jupyterhub-button.mjs
@@ -21,10 +22,8 @@ project:
   copyright: "2025"
   toc:
     - file: index.md
-    - title: Overview
-      children:
-        - file: tutorial/README.md
-        - file: hackathon/README.md
+    - file: tutorial/README.md
+    - file: hackathon/README.md
   subject: earth and related environmental sciences
 
 
