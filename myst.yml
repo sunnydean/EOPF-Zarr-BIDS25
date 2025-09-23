@@ -23,7 +23,7 @@ project:
   toc:
     # Main navigation
     - file: index.md
-    - file: notebooks/hackathon.md
+    - file: hackathon/README.md
   subject: earth and related environmental sciences
 
 site:
