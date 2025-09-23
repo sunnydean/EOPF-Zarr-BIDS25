@@ -4,7 +4,7 @@ extends:
   - https://raw.githubusercontent.com/EOPF-Sample-Service/eopf-sample-notebooks/refs/heads/main/eopf.yml
 project:
   title: Welcome
-  description: Jupyter notebooks showcasing the usage of EOPF Sample Zarr Service
+  description: EOPF Zarr Tutorial and Hackathon material for BiDS25
   plugins:
     - src/add-jupyterhub-button.mjs
   authors:
@@ -23,8 +23,10 @@ project:
   toc:
     # Main navigation
     - file: index.md
+    - file: tutorial/README.md
     - file: hackathon/README.md
   subject: earth and related environmental sciences
+
 
 site:
   template: book-theme
