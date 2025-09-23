@@ -9,13 +9,10 @@ title: EOPF Tutorial at BiDS'25
 
 ## 🎯 Tutorial Objectives
 
-**Introduce Cloud-Native Workflows**: Explain the paradigm shift from traditional, file-based workflows to scalable, cloud-native analysis using formats like `zarr` to overcome the challenges of processing large-scale Earth observation data.
-
-**Data Discovery with STAC**: Provide practical skills in using the EOPF STAC catalog's web interface and programmatic tools (like `pystac-client`) to find and filter Earth observation data efficiently.
-
-**Discover the newly developed plugins:** Get an overview of the xarray EOPF backend, the xcube EOPF data store, the GDAL EOPF reader, and a Julia EOPF re
-
-**Build Practical Data Analysis Skills**: Guide participants through a hands-on, end-to-end workflow based in Python libraries such as `xarray` and `zarr` to perform a real-world analysis (e.g., wildfire monitoring), showcasing the integration of STAC and `zarr`.
+- **Introduce Cloud-Native Workflows**: Explain the paradigm shift from traditional, file-based workflows to scalable, cloud-native analysis using formats like `zarr` to overcome the challenges of processing large-scale Earth observation data.
+- **Data Discovery with STAC**: Provide practical skills in using the EOPF STAC catalog's web interface and programmatic tools (like `pystac-client`) to find and filter Earth observation data efficiently.
+- **Discover the newly developed plugins:** Get an overview of the xarray EOPF backend, the xcube EOPF data store, the GDAL EOPF reader, and a Julia EOPF re
+- **Build Practical Data Analysis Skills**: Guide participants through a hands-on, end-to-end workflow based in Python libraries such as `xarray` and `zarr` to perform a real-world analysis (e.g., wildfire monitoring), showcasing the integration of STAC and `zarr`.
 
 
 
