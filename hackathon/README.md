@@ -90,6 +90,9 @@ Transform how we access and process Copernicus Sentinel data using cloud-native 
 - **Community notebook competition** introduction
 - **Closing remarks**
 
+
+#### 18:00 - 18:30: Celebration & Awards
+
 ---
 
 ## 💡 Project Ideas & Team Formation
