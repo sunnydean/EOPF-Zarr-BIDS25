@@ -13,9 +13,11 @@ title: EOPF Tutorial at BiDS'25
 
 **Data Discovery with STAC**: Provide practical skills in using the EOPF STAC catalog's web interface and programmatic tools (like `pystac-client`) to find and filter Earth observation data efficiently.
 
+**Discover the newly developed plugins:** Get an overview of the xarray EOPF backend, the xcube EOPF data store, the GDAL EOPF reader, and a Julia EOPF re
+
 **Build Practical Data Analysis Skills**: Guide participants through a hands-on, end-to-end workflow based in Python libraries such as `xarray` and `zarr` to perform a real-world analysis (e.g., wildfire monitoring), showcasing the integration of STAC and `zarr`.
 
-**Highlight the Ecosystem and Future**: How Zarr and STAC together form a powerful ecosystem for open science and data-driven decision-making, while also mentioning other community developments (e.g., in GDAL, R, and Julia).
+
 
 ### Familiarize Yourself:
 
@@ -57,7 +59,16 @@ Guided demo on how to explore the web interface of the [EOPF STAC catalog](https
 - **Python STAC Access**
 Guided walk for generating the connection to the EOPF STAC Catalog Endpoint through Python.
 
-#### 15:30 - 16:35: Wildfire in Sardinia
+#### 15:00 - 15:30: EOPF Zarr Plugins for easy acess
+Overview on the availabe plugins deveolped by [EOPF Sample Service](https://zarr.eopf.copernicus.eu/data-and-tools/#open_source_plugins). 
+Short handons demos for each plugin: 
+  - [xarray EOPF backend](https://eopf-sample-service.github.io/xarray-eopf/)
+  - [xcube EOPF data store](https://eopf-sample-service.github.io/xcube-eopf/)
+  - [GDAL EOPF Reader](https://github.com/EOPF-Sample-Service/GDAL-ZARR-EOPF)
+  - [Julia Reader](https://github.com/JuliaGeo/SentinelDataSource.jl)
+
+
+#### 15:30 - 16:30: Wildfire in Sardinia
 Guided example of how to integrate Sentinel products into a specific use case.
 
 Support on replicating the workflow with provided case studies.
