@@ -21,10 +21,10 @@ project:
     code: Apache-2.0
   copyright: "2025"
   toc:
-    # Main navigation
     - file: index.md
-    - file: tutorial/README.md
-    - file: hackathon/README.md
+      children:
+        - file: tutorial/README.md
+        - file: hackathon/README.md
   subject: earth and related environmental sciences
 
 
