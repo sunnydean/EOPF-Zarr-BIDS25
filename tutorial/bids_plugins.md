@@ -7,7 +7,7 @@ format:
 
 ## 🗺️ Overview of EOPF Zarr Plugins
 
-![plugins_overview](img/plugins_overview.png){fig-align="center"}
+![plugin_overview](img/plugin_overview.png){fig-align="center"}
 
 We build the following plugins:
 
