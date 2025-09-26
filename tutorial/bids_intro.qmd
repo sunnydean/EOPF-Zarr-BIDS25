@@ -59,9 +59,22 @@ Zarr uses descriptive **metadata** for both individual arrays and the full datas
 ### Chunking for Optimisation
 
 **Chunking** is a core concept for optimising data access in **Zarr**. It involves breaking a large dataset into smaller, manageable chunks.<br>
+
 The size and shape of these chunks are critical and should be chosen based on the most common access patterns. For example, a **multi-temporal dataset** might be best chunked by space (`x` and `y`) to enable fast access to all time slices for a single location, or by time (`t`) to efficiently access a single scene across all variables.
 
 Proper **rechunking** can dramatically improve performance by ensuring that the data layout on disk matches the way you want to access it, whether for a single-point time series analysis or a spatial crop.
+
+#### Why is it relevant to chunk EO data?
+
+Earth Observation datasets exhibit characteristics that **significantly** **influence** optimal **chunking strategies**. We can consider their structure, sizes, processing workflows and spatial and temporal resolutions.
+
+- **Multi-dimensional complexity**: Satellite data combines spatial dimensions (often tens of thousands of pixels per side), spectral dimensions (multiple wavelength bands), and temporal dimensions (time series spanning years or decades). Each dimension has different access patterns and computational requirements.
+
+- **Scale characteristics**: Modern satellites generate massive data volumes. The Sentinel-2 mission alone, for example, produces approximately 1.6 TB per orbit, with the full archive exceeding 25 petabytes and growing rapidly. Processing workflows must handle this scale efficiently.
+
+- **Access patterns**: Unlike general-purpose arrays, EO data has predictable access patterns. Spatial analysis typically accesses rectangular geographic regions. Spectral analysis needs multiple bands for the same locations. Time series analysis follows individual pixels or regions through time.
+
+- **Heterogeneous resolutions**: Many instruments capture data at multiple spatial resolutions simultaneously. Some missions require coordinated chunking strategies that balance storage efficiency with processing convenience.
 
 ---
 
