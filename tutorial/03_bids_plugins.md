@@ -57,7 +57,10 @@ datatree = xr.open_datatree(url_or_path, engine="eopf-zarr")
 - 📦 **PyPI:** [xarray-eopf](https://pypi.org/project/xarray-eopf)
 - 🐍 **Anaconda:** [xarray-eopf on conda-forge](https://anaconda.org/conda-forge/xarray-eopf)
 - 📖 **Documentation:** [xarray-eopf docs](https://eopf-sample-service.github.io/xarray-eopf)
-- 📓 **Example notebook:** [Introduction to xarray-eopf plugin](https://eopf-sample-service.github.io/eopf-sample-notebooks/introduction-xarray-eopf-plugin)
+- 📓 **Example notebook:**
+    - [Sentinel-2](https://eopf-sample-service.github.io/eopf-sample-notebooks/xarray-eopf-sen2)
+    - [Sentinel-3](https://eopf-sample-service.github.io/eopf-sample-notebooks/xarray-eopf-sen3)
+
 
 
 ### xcube EOPF data store
@@ -87,26 +90,58 @@ the following steps:
 - 📦 **PyPI:** [xcube-eopf](https://pypi.org/project/xcube-eopf)
 - 🐍 **Anaconda:** [xcube-eopf on conda-forge](https://anaconda.org/conda-forge/xcube-eopf)
 - 📖 **Documentation:** [xcube-eopf docs](https://eopf-sample-service.github.io/xcube-eopf)
-- 📓 **Example notebook:** [Introduction to xcube-eopf plugin](https://eopf-sample-service.github.io/eopf-sample-notebooks/introduction-xcube-eopf-plugin)
+- 📓 **Example notebook:**
+    - [Sentinel-2](https://eopf-sample-service.github.io/eopf-sample-notebooks/xcube-eopf-sen2)
+    - [Sentinel-3](https://eopf-sample-service.github.io/eopf-sample-notebooks/xcube-eopf-sen3)
 
 
-### GDAL EOPF driver
+### GDAL EOPF Driver
 
-A GDAL driver plugin for reading EOPF (Earth Observation Processing Framework) Zarr datasets.
+A GDAL plugin for reading **EOPF (Earth Observation Processing Framework) Zarr datasets**.
 
-**Features**
+---
 
-- **QGIS integration** - Works with "Add Raster Layer"
-- **Geospatial intelligence** - Automatic CRS and geotransform detection
-- **Performance optimized** - Caching, lazy loading, block prefetching
-- **Cloud native** - HTTP/HTTPS and virtual file system support
-- **Cross-platform** - Windows, macOS, Linux
+**✨ Key Features**
 
-**🔗 Useful links**
+- **Seamless QGIS integration** – Works directly with *Add Raster Layer*
+- **Smart geospatial handling** – Automatic CRS and geotransform detection (crucial for QGIS workflows)
+- **Optimized performance** – Built-in caching, lazy loading, and block prefetching
+- **Cloud-native** – Supports HTTP/HTTPS access and GDAL’s virtual file systems
+- **Cross-platform** – Available on Windows, macOS, and Linux
+
+---
+
+**🚀 How to Use**
+
+1. **On JupyterHub**
+   - Go to [JupyterHub](https://jupyterhub.user.eopf.eodc.eu/hub)
+   - Select *Specify an existing Docker image*
+   - Enter:
+     ```
+     yuvraj1989/eopf-zarr-driver:latest
+     ```
+
+2. **Locally**
+   - Follow the setup instructions in the [documentation](https://github.com/EOPF-Sample-Service/GDAL-ZARR-EOPF/blob/main/README.md).
+
+3. **With QGIS via VNC**
+   - Run the container:
+     ```bash
+     docker run -d --name eopf-qgis-vnc -p 6080:6080 -p 8888:8888 \
+       yuvraj1989/eopf-qgis-conda:latest /usr/local/bin/start-qgis-demo.sh
+     ```
+   - Then open [http://localhost:6080/vnc.html](http://localhost:6080/vnc.html) in your browser to access QGIS.
+
+---
+
+**🔗 Useful Links**
 
 - 🐙 **GitHub:** [EOPF-Sample-Service/GDAL-ZARR-EOPF](https://github.com/EOPF-Sample-Service/GDAL-ZARR-EOPF)
 - 📖 **Documentation:** [GDAL EOPF driver docs](https://github.com/EOPF-Sample-Service/GDAL-ZARR-EOPF/blob/main/README.md)
-- 📓 **Example notebook:** [Explore EOPF Zarr Sentinel-2 files using GDAL](https://eopf-sample-service.github.io/eopf-sample-notebooks/gdal-explore-zarr)
+- 📓 **Example notebooks:**
+  - [Metadata comparison Zarr vs EOPFZARR GDAL reader](https://eopf-sample-service.github.io/eopf-sample-notebooks/gdal-explore-zarr)
+  - [Sentinel-2 with EOPFZARR GDAL](https://github.com/EOPF-Sample-Service/GDAL-ZARR-EOPF/blob/main/notebooks/04-Explore_sentinel2_EOPFZARR.ipynb)
+  - [Sentinel-3 with EOPFZARR GDAL](https://github.com/EOPF-Sample-Service/GDAL-ZARR-EOPF/blob/main/notebooks/07-Sentinel-3-OLCI-Level-1-EFR.ipynb)
 
 
 ### Julia EOPF reader
@@ -119,4 +154,3 @@ This currently gives you a 1:1 representation of the data in the zarr folder.
 
 - 🐙 **GitHub:** [JuliaGeo/SentinelDataSource](https://github.com/JuliaGeo/SentinelDataSource.jl)
 - 📖 **Documentation:** [JuliaGeo/SentinelDataSource docs](https://github.com/JuliaGeo/SentinelDataSource.jl/blob/main/README.md)
-- 📓 **Example notebook:**

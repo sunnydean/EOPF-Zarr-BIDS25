@@ -23,8 +23,18 @@ project:
   toc:
     - file: index.md
     - file: tutorial/README.md
+      children:
+        - file: 01_bids_intro.md
+        - file: 02_bids_stac.md
+          children:
+            - file: 01_intro_stac.ipynb
+        - file: 03_bids_plugins.md
+          children:
+            - file: 02_plugins_xarray_xcube.ipynb
+        - file: 04_wildfire_in_sardinia.ipynb
+        - file: 04_wildfire_in_sardinia.ipynb
     - file: hackathon/README.md
-  subject: earth and related environmental sciences
+  subject: EOPF Zarr at BiDS'25
 
 
 site:
