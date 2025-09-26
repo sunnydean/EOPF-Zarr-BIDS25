@@ -43,11 +43,7 @@ We encourage you to try them out and share your feedback by opening issues in th
 
 ## 💪 Now it is your turn
 
-After this tutorial, we invite you to...
-
-### Challenge yourself with discovering deeper the zarr EOPF format!
-
-### Visit:
+After this tutorial, we invite you to participate the EOPF Zarr Hackathon tomorrow. If you don't find time, you can visit our resources:
 
 ### EOPF 101
 
@@ -59,6 +55,6 @@ Available: [here](https://eopf-toolkit.github.io/eopf-101/)
 ![EOPF Sample Service Notebook Gallery](img/zsz_notebooks.png)
 Available: [here](https://eopf-sample-service.github.io/eopf-sample-notebooks/gallery/)
 
-## What's next?
+**Challenge yourself with discovering deeper the zarr EOPF format!**
 
-# `Happy zarr Coding! :)`
+**`Happy zarr Coding! :)`**
