@@ -1,5 +1,5 @@
 ---
-title: "Introduction to the EOPF STAC Catalog"
+title: "EOPF STAC Catalog"
 format:
     html:
         code-fold: true

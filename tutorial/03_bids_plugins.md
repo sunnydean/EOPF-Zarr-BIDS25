@@ -1,5 +1,5 @@
 ---
-title: "Introduction to the EOPF Zarr Plugins"
+title: "EOPF Zarr Plugins"
 format:
     html:
         code-fold: true
