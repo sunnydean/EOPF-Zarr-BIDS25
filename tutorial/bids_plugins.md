@@ -111,8 +111,12 @@ A GDAL driver plugin for reading EOPF (Earth Observation Processing Framework) Z
 
 ### Julia EOPF reader
 
+A Julia plugin for reading EOPF (Earth Observation Processing Framework) Zarr datasets.
+You can open the EOPF data into a DimTree with Raster leaves for the underlying data. 
+This currently gives you a 1:1 representation of the data in the zarr folder.
+
 **🔗 Useful links**
 
 - 🐙 **GitHub:** [JuliaGeo/SentinelDataSource](https://github.com/JuliaGeo/SentinelDataSource.jl)
-- 📖 **Documentation:**
+- 📖 **Documentation:** [JuliaGeo/SentinelDataSource docs](https://github.com/JuliaGeo/SentinelDataSource.jl/blob/main/README.md)
 - 📓 **Example notebook:**
