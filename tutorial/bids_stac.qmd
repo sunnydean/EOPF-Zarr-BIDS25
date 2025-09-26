@@ -54,6 +54,28 @@ The starting point to access this data is the main homepage of the [EOPF Sentine
 
 The landing page is organised into three main areas: the **API and URL section**, a **search bar**, and the **Collections display**.
 
+## 💪 Now it is your turn
+- Go to the [EOPF Sentinel Zarr Samples Service STAC Catalog](https://stac.browser.user.eopf.eodc.eu/?.language=en)
+- Explore this two collections:
+
+### Task 1
+
+#### Sentinel-1 Level-1 GRD over Sicily
+
+- **Starting and ending date:**<br>
+    `2025-05-01` to `2025-05-31`
+
+### Task 2
+
+#### Sentinel-2 L-2A over Vienna
+
+- **Starting and ending date:**<br>
+    `2025-04-01` to `2025-04-30`
+
+### Explore...
+- How many items are available?
+- Filter the cloud percentage... How many items are still available?
+
 ## What's next?
 
 We have covered the what and why of STAC, browsed the EOPF STAC Catalog through the web interfase, but now it is time to put that knowledge into practice.
