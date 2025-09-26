@@ -5,7 +5,7 @@ format:
         code-fold: true
 ---
 
-## 🗺️ Overview of EOPF Zarr Plugins
+## Overview of EOPF Zarr Plugins
 
 ![plugin_overview](img/plugin_overview.png){fig-align="center"}
 
@@ -21,7 +21,7 @@ These plugins can be used in the following visualization framework:
 
 ![visualization_overview](img/visualization_overview.png){fig-align="center"}
 
-### What we will learn
+## What we will learn
 
 - 🔍 What can be done with each plugin.
 - 🌳 Current developement state future developement plans of each plugin.

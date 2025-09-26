@@ -7,12 +7,6 @@ project:
   description: EOPF Zarr Tutorial and Hackathon material for BiDS25
   plugins:
     - src/add-jupyterhub-button.mjs
-  authors:
-    - name: European Space Agency
-      affiliations:
-        - id: ESA
-          institution: ESA
-          ror: https://ror.org/03wd9za21
   github: https://github.com/EOPF-Sample-Service/EOPF-Zarr-BIDS25
   thumbnail: static/EOPF-Toolkit-Sample.png
   open_access: true
