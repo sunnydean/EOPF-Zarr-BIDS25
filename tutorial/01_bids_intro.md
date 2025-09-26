@@ -120,7 +120,46 @@ print_gen_structure(s2l2a_zarr_sample.root)
 print(' ', 'attributes', list(s2l2a_zarr_sample.attrs.keys()))
 
 ```
-
+<pre>
+Zarr Sentinel 2 L2A Structure
+None
+  conditions
+    geometry
+    mask
+      detector_footprint
+        r10m
+        r20m
+        r60m
+      l1c_classification
+        r60m
+      l2a_classification
+        r20m
+        r60m
+    meteorology
+      cams
+      ecmwf
+  measurements
+    reflectance
+      r10m
+      r20m
+      r60m
+  quality
+    atmosphere
+      r10m
+      r20m
+      r60m
+    l2a_quicklook
+      r10m
+      r20m
+      r60m
+    mask
+      r10m
+      r20m
+      r60m
+    probability
+      r20m
+  attributes ['other_metadata', 'stac_discovery']
+</pre>
 ## So, we can say...
 
 - **A Paradigm Shift in Geospatial Data**: Traditional geospatial workflows could turn inefficient for big data from space.Cloud-optimised formats such as Zarr allow us to perform analysis directly in the cloud without downloading entire datasets.
