@@ -18,7 +18,7 @@ project:
     - file: index.md
     - file: tutorial/README.md
       children:
-        - file: tutorial/01_bids_intro.qmd
+        - file: tutorial/01_bids_intro.md
         - file: tutorial/02_bids_stac.md
           children:
             - file: tutorial/01_intro_stac.ipynb
