@@ -27,7 +27,7 @@ For more information about STAC, visit [The STAC Specification](https://stacspec
 
 STAC consists of four main components that work together to form a cohesive structure: **Catalog**, **Collection**, **Item**, and **Asset**. This hierarchical organisation is key to its discoverability.
 
-![STAC structure](img/stac_example.png){fig-align="center"}
+![STAC structure](img/stac_example.png)
 
 * **Catalog**: This is the entry point for a STAC. It simply provides links to `Collections` or `Items`. Think of it as a top-level folder on your computer that organises your data. A `Catalog` is used to group `Collections` or other `Catalogs`.
 
@@ -50,7 +50,7 @@ For the **EOPF** initiative, the STAC structure is specifically applied to Senti
 
 The starting point to access this data is the main homepage of the [EOPF Sentinel Zarr Samples Service STAC Catalog](https://stac.browser.user.eopf.eodc.eu/?.language=en). The landing page provides a comprehensive overview of the available data collections and acts as our entry point.
 
-![Home page](img/home_page.png){fig-align="center"}
+![Home page](img/home_page.png)
 
 The landing page is organised into three main areas: the **API and URL section**, a **search bar**, and the **Collections display**.
 

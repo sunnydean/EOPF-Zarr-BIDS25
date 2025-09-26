@@ -48,13 +48,13 @@ The [Sentinel-1](https://www.esa.int/Applications/Observing_the_Earth/Copernicus
 
 This makes Zarr particularly well-suited as a storage format for processing Earth observation data in the cloud.
 
-![Zarr conceptual structure and overview of Zarr components](img/zarr_str.png){fig-align="center"}
+![Zarr conceptual structure and overview of Zarr components](img/zarr_str.png)
 
 ### Metadata
 
 Zarr uses descriptive **metadata** for both individual arrays and the full dataset hierarchy. This metadata is stored in `zarr.json` files and is available at the array, group, and store levels. This structured approach makes Zarr datasets **self-descriptive** and easy to navigate.
 
-![Zarr's hierarchical organisation showing stores, groups, arrays, and chunks](img/zarr-terminology-hierarchy.png){fig-align="center"}
+![Zarr's hierarchical organisation showing stores, groups, arrays, and chunks](img/zarr-terminology-hierarchy.png)
 
 ### Chunking for Optimisation
 
@@ -82,7 +82,7 @@ Earth Observation datasets exhibit characteristics that **significantly** **infl
 
 The ESA EOPF defines `.zarr` as the encoding format for the [EOPF Sentinel Zarr Samples Service STAC API](https://stac.browser.user.eopf.eodc.eu/?.language=en). This format modernises the previous `.SAFE` encoding into a flexible, cloud-native structure, enhancing the accessibility of Sentinel data from missions like **Sentinel-1**, **-2**, and **-3**.
 
-![EOPF product structure](img/EOProduct-structure.png){fig-align="center"}
+![EOPF product structure](img/EOProduct-structure.png)
 
 EOPF Zarr products are organised into four main groups:
 

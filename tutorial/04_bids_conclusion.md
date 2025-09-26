@@ -51,12 +51,12 @@ After this tutorial, we invite you to...
 
 ### EOPF 101
 
-![EOPF 101 Resource](img/eopf_101.png){fig-align="center"}
+![EOPF 101 Resource](img/eopf_101.png)
 Available: [here](https://eopf-toolkit.github.io/eopf-101/)
 
 ### EOPF Sentinel Zarr Samples Notebooks
 
-![EOPF Sample Service Notebook Gallery](img/zsz_notebooks.png){fig-align="center"}
+![EOPF Sample Service Notebook Gallery](img/zsz_notebooks.png)
 Available: [here](https://eopf-sample-service.github.io/eopf-sample-notebooks/gallery/)
 
 ## What's next?

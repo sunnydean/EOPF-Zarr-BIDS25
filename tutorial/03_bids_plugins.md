@@ -7,7 +7,7 @@ format:
 
 ## Overview of EOPF Zarr Plugins
 
-![plugin_overview](img/plugin_overview.png){fig-align="center"}
+![plugin_overview](img/plugin_overview.png)
 
 We build the following plugins:
 
@@ -19,7 +19,7 @@ We build the following plugins:
 
 These plugins can be used in the following visualization framework:
 
-![visualization_overview](img/visualization_overview.png){fig-align="center"}
+![visualization_overview](img/visualization_overview.png)
 
 ## What we will learn
 
