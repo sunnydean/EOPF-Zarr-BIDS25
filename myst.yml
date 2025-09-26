@@ -24,15 +24,15 @@ project:
     - file: index.md
     - file: tutorial/README.md
       children:
-        - file: 01_bids_intro.md
-        - file: 02_bids_stac.md
+        - file: tutorial/01_bids_intro.md
+        - file: tutorial/02_bids_stac.md
           children:
-            - file: 01_intro_stac.ipynb
-        - file: 03_bids_plugins.md
+            - file: tutorial/01_intro_stac.ipynb
+        - file: tutorial/03_bids_plugins.md
           children:
-            - file: 02_plugins_xarray_xcube.ipynb
-        - file: 04_wildfire_in_sardinia.ipynb
-        - file: 04_wildfire_in_sardinia.ipynb
+            - file: tutorial/02_plugins_xarray_xcube.ipynb
+        - file: tutorial/04_wildfire_in_sardinia.ipynb
+        - file: tutorial/04_bids_conclusion.md
     - file: hackathon/README.md
   subject: EOPF Zarr at BiDS'25
 
