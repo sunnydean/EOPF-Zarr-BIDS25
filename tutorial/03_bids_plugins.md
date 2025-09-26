@@ -15,7 +15,7 @@ We build the following plugins:
 * xcube EOPF data store
 * GDAL EOPF driver
 * Julia EOPF reader
-* SNAP EOPF reader (Prototype for Sentinel-2 L2A)
+* SNAP EOPF reader (Prototype for Sentinel-2 L2A, under development) 
 
 These plugins can be used in the following visualization framework:
 
@@ -27,6 +27,7 @@ These plugins can be used in the following visualization framework:
 - 🌳 Current developement state future developement plans of each plugin.
 - 🔦 How to access data with each plugin.
 
+---
 
 ### xarray-eopf backend
 
@@ -61,7 +62,7 @@ datatree = xr.open_datatree(url_or_path, engine="eopf-zarr")
     - [Sentinel-2](https://eopf-sample-service.github.io/eopf-sample-notebooks/xarray-eopf-sen2)
     - [Sentinel-3](https://eopf-sample-service.github.io/eopf-sample-notebooks/xarray-eopf-sen3)
 
-
+---
 
 ### xcube EOPF data store
 
@@ -94,12 +95,11 @@ the following steps:
     - [Sentinel-2](https://eopf-sample-service.github.io/eopf-sample-notebooks/xcube-eopf-sen2)
     - [Sentinel-3](https://eopf-sample-service.github.io/eopf-sample-notebooks/xcube-eopf-sen3)
 
+---
 
 ### GDAL EOPF Driver
 
 A GDAL plugin for reading **EOPF (Earth Observation Processing Framework) Zarr datasets**.
-
----
 
 **✨ Key Features**
 
@@ -109,7 +109,6 @@ A GDAL plugin for reading **EOPF (Earth Observation Processing Framework) Zarr d
 - **Cloud-native** – Supports HTTP/HTTPS access and GDAL’s virtual file systems
 - **Cross-platform** – Available on Windows, macOS, and Linux
 
----
 
 **🚀 How to Use**
 
@@ -132,7 +131,6 @@ A GDAL plugin for reading **EOPF (Earth Observation Processing Framework) Zarr d
      ```
    - Then open [http://localhost:6080/vnc.html](http://localhost:6080/vnc.html) in your browser to access QGIS.
 
----
 
 **🔗 Useful Links**
 
@@ -143,6 +141,7 @@ A GDAL plugin for reading **EOPF (Earth Observation Processing Framework) Zarr d
   - [Sentinel-2 with EOPFZARR GDAL](https://github.com/EOPF-Sample-Service/GDAL-ZARR-EOPF/blob/main/notebooks/04-Explore_sentinel2_EOPFZARR.ipynb)
   - [Sentinel-3 with EOPFZARR GDAL](https://github.com/EOPF-Sample-Service/GDAL-ZARR-EOPF/blob/main/notebooks/07-Sentinel-3-OLCI-Level-1-EFR.ipynb)
 
+---
 
 ### Julia EOPF reader
 

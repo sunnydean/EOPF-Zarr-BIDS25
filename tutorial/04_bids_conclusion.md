@@ -29,6 +29,17 @@ For the **EOPF** initiative, the STAC structure is specifically applied to Senti
 
 Adopting the **SpatioTemporal Asset Catalog (STAC)** standard enhances the **replicability** and **reusability** of data within specific workflows, fostering a more collaborative and standardised EO ecosystem.
 
+## The EOPF Zarr Plugins
+
+The EOPF ecosystem provides four plugins that make it easy to access data across different programming languages and platforms:
+
+- **xarray EOPF backend**  
+- **xcube EOPF data store**  
+- **GDAL EOPF driver**  
+- **Julia EOPF reader**  
+
+We encourage you to try them out and share your feedback by opening issues in the respective repositories.
+
 
 ## 💪 Now it is your turn
 
