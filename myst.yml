@@ -28,6 +28,7 @@ project:
         - file: tutorial/04_wildfire_in_sardinia.ipynb
         - file: tutorial/04_bids_conclusion.md
     - file: hackathon/README.md
+    - file: hackathon/resources.md
   subject: EOPF Zarr at BiDS'25
 
 
