@@ -39,12 +39,12 @@ The [Sentinel-1](https://www.esa.int/Applications/Observing_the_Earth/Copernicus
 
 **Zarr** is the cloud-optimised solution for storing large, multi-dimensional arrays, similar to traditional `netCDF` and `HDF5` formats. It's built for cloud environments through several key features:
 
+* **Hierarchical Organisation**: Data is organised into groups, like folders in a file system.
+* **Self-Description**: Rich metadata is stored alongside the data using JSON.
 * **Chunking**: Large arrays are broken into smaller, independently accessible pieces.
 * **Compression**: Each chunk can be compressed individually for efficient storage.
-* **Hierarchical Organisation**: Data is organised into groups, like folders in a file system.
-* **Cloud-Native Access**: Optimised for reading partial data over HTTP.
 * **Parallel I/O**: Multiple chunks can be read or written simultaneously.
-* **Self-Description**: Rich metadata is stored alongside the data using JSON.
+
 
 This makes Zarr particularly well-suited as a storage format for processing Earth observation data in the cloud.
 
@@ -55,6 +55,8 @@ This makes Zarr particularly well-suited as a storage format for processing Eart
 Zarr uses descriptive **metadata** for both individual arrays and the full dataset hierarchy. This metadata is stored in `zarr.json` files and is available at the array, group, and store levels. This structured approach makes Zarr datasets **self-descriptive** and easy to navigate.
 
 ![Zarr's hierarchical organisation showing stores, groups, arrays, and chunks](img/zarr-terminology-hierarchy.png)
+
+<br>
 
 ### Chunking for Optimisation
 
