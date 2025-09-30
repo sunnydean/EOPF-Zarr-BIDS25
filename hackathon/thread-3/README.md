@@ -1,4 +1,4 @@
-# Bids25 EOPF-Zarr hackathon: RGB Composites/Vegetation indexes/burned area (Fabrice)
+# Bids25 EOPF-Zarr hackathon: RGB Composites/Vegetation indexes/burned area
 	
 **Goal: reproduce the comfort we had with STAC/COG**
 
