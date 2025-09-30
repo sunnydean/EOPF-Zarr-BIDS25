@@ -5,7 +5,7 @@ Calculate Spectral Diversity metrics from Sentinel-2 L2A satellite imagery to as
 
 Hackathon focus - implement Spectral Rao's Q (Tassi et al. 2022)
 
-## Study Area
+### Study Area
 **Location:** University of Tartu area, Estonia  
 **Bounding Box:**
 - Southwest: 26.7212871883497414, 58.2029953574183310
@@ -13,8 +13,15 @@ Hackathon focus - implement Spectral Rao's Q (Tassi et al. 2022)
 
 **Data Source:** Sentinel-2 L2A EOPF Zarr format
 
-## Why It Matters
+![RGB Plot Porijogi region Estonia](rgb_porijogi_estonia.png)
+
+
+### Why It Matters
 Spectral diversity is considered a meaningful indicator to assess biodiversity in the scientific literature. By analyzing the spectral properties of satellite imagery, we can derive proxies for ecosystem diversity and health.
+
+### Result
+
+![A demo of window-based spectral diversity](alpha_div_test.png)
 
 ## Background & Literature
 
